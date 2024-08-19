@@ -1,4 +1,7 @@
 <div class="navcontainer">
+        <div>
+            <h1 class="logo">Sito</h1>
+        </div>
             <ul class="navbar">
                 <li><a href="/" class="<?= isThisUrl('/') ? 'currentlink' : 'link'?>">Home</a></li>
                 <li><a href="/travels" class="<?= isThisUrl('/travels') ? 'currentlink' : 'link' ?>">Viaggi</a></li>

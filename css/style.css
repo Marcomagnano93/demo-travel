@@ -46,7 +46,10 @@ header{
 }
 
 .navcontainer{
-    margin: 0 32px 0 0;
+    width: 100%;
+    margin: 0 32px 0 32px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .link {

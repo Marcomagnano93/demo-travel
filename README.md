@@ -1,1 +1,2 @@
-Just some exercise from Laracast PHP course
+- fix footer / header add some style
+- add travels page
