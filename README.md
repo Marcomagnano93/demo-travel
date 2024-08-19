@@ -1,0 +1,1 @@
+Just some exercise from Laracast PHP course
