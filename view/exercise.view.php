@@ -22,9 +22,13 @@
      <h5>Persone:</h5>
      <ul>
         <?php foreach ($people as $person) : ?>
-            <li>Nome: <?= $person['name']; ?></li>
-            <li>Età: <?= $person['age']; ?></li>
-            <li>Indirizzo: <?= $person['adress']; ?></li> <hr>
+            <li>
+                <div>
+                    Nome: <?= $person['name']; ?>
+                    Età: <?= $person['age']; ?></li>
+                    Indirizzo: <?= $person['adress']; ?>
+                </div>      
+            </li> <hr>
         <?php endforeach ?>
      </ul>
 

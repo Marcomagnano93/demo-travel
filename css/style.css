@@ -23,6 +23,7 @@ header{
     background-color: lightblue;
     color: white;
     padding: 24px 0 24px 0;
+    
 }
 
 .backhome {
@@ -63,6 +64,12 @@ header{
     margin: 0 12px 0 12px;
 }
 
+footer{
+    background-color: gray;
+    padding: 24px 0 24px 0;
+
+
+}
 /* LAYOUT */
 
 .container {
@@ -74,6 +81,20 @@ header{
     display: flex;
     flex-wrap: nowrap;
 }
+
+.app{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+
+}
+
 
 /* utilities */
 .mtop {

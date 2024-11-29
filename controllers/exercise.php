@@ -109,4 +109,8 @@
         $message = "No!";
     };
     
+
+    // foreach + key
+
+
 require "view/exercise.view.php";
